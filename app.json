@@ -1,0 +1,45 @@
+{
+	"pages": [
+		"pages/login/login",
+		"pages/edit/edit",
+		"pages/add_fx/add_fx",
+		"pages/home_page/home_page",
+		"pages/fx/fx",
+		"pages/fx_list/fx_list",
+		"pages/my/my",
+		"pages/patients_detail/patients_detail",
+		"pages/patients_detail2/patients_detail2",
+		"pages/patients_entrance/patients_entrance",
+
+		"pages/edit2/edit2",
+		"pages/index/index",
+		"pages/logs/logs"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "康复助手",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#949494",
+		"backgroundColor": "#ffffff",
+		"selectedColor": "#6263FF",
+		"list": [
+			{
+				"selectedIconPath": "img/tab_icon_examination_and_approval_pre.png",
+				"iconPath": "img/tab_icon_examination_and_approval_nor.png",
+				"pagePath": "pages/home_page/home_page",
+				"text": "首页"
+			},
+			{
+				"selectedIconPath": "img/tab_icon_my_pre.png",
+				"iconPath": "img/tab_icon_myl_nor.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,26 @@
+.li{
+  padding: 0 15px;
+  font-size: 14px;
+  color: #333333;
+  border-bottom: 1px solid #e1e1e1;
+  line-height: 50px;
+}
+.li checkbox{
+  transform: scale(0.8);
+  vertical-align: 1px;
+  margin-right: 5px;
+}
+.bottom{
+  position: fixed;
+  z-index: 99;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background: linear-gradient(to top right, #45A5FD , #6263FC);
+}

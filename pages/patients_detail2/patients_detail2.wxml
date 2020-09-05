@@ -1,0 +1,153 @@
+<view>
+  <view class="block">
+    <view class="tit">基础认知</view>
+    <view class="nr">
+      累计训练了25天，12个程序，共计98局，平均每天3.9局。
+    </view>
+    <view class="nr">
+      最近7天里，训练了3天，共计9局。平均每天3局。
+    </view>
+    <view class="nr">
+      出勤情况：最近31天里，出勤14天
+    </view>
+
+    <scroll-view class="date_view" scroll-x="{{true}}" scroll-left="10000">
+      <view class="date_li sel">
+        09
+      </view>
+      <view class="date_li">
+        08
+      </view>
+      <view class="date_li">
+        07
+      </view>
+      <view class="date_li">
+        06
+      </view>
+      <view class="date_li sel">
+        05
+      </view>
+      <view class="date_li">
+        04
+      </view>
+      <view class="date_li">
+        03
+      </view>
+      <view class="date_li sel">
+        02
+      </view>
+      <view class="date_li">
+        01
+      </view>
+      <view class="date_li sel">
+        30
+      </view>
+      <view class="date_li">
+        29
+      </view>
+      <view class="date_li">
+        28
+      </view>
+      <view class="date_li">
+        27
+      </view>
+      <view class="date_li sel">
+        26
+      </view>
+      <view class="date_li sel">
+        25
+      </view>
+      <view class="date_li">
+        24
+      </view>
+      <view class="date_li">
+        23
+      </view>
+      <view class="date_li">
+        22
+      </view>
+      <view class="date_li sel">
+        21
+      </view>
+      <view class="date_li">
+        20
+      </view>
+      <view class="date_li sel">
+        19
+      </view>
+    <view class="date_li">
+        18
+      </view>
+      <view class="date_li">
+        17
+      </view>
+      <view class="date_li sel">
+        16
+      </view>
+      <view class="date_li">
+        15
+      </view>
+      <view class="date_li">
+        14
+      </view>
+      <view class="date_li sel">
+        13
+      </view>
+      <view class="date_li">
+        12
+      </view>
+      <view class="date_li">
+        11
+      </view>
+      <view class="date_li">
+        10
+      </view>
+      <view class="date_li sel">
+        09
+      </view>
+      <view class="date_li sel">
+        08
+      </view>
+    </scroll-view>
+
+
+
+    <view class="list_head">
+      <text>程序名称</text>
+      <text>累计训练</text>
+      <text>最新得分</text>
+      <text>首次训练</text>
+      <text>最近训练</text>
+    </view>
+    <view class="list">
+      <view class="li" catchtap="upd_pop">
+        <text>快递装箱</text>
+        <text>6天14局</text>
+        <text>145</text>
+        <text>05-14</text>
+        <text>05-29</text>
+      </view>
+      <view class="li" catchtap="upd_pop">
+        <text>鱼翔浅底</text>
+        <text>6天14局</text>
+        <text>145</text>
+        <text>05-14</text>
+        <text>05-29</text>
+      </view>
+    </view>
+  </view>
+
+   <view class="block" style="margin-top:10px">
+    <view class="tit">言语认知</view>
+    <view class="nr">
+      累计训练了22天，4个程序，共计37局，平均每天1.7局。
+    </view>
+  </view>
+
+
+  <view class="btn" catchtap="add">复习</view>
+
+  <view class="shadow" wx:if="{{is_pop}}" catchtap="upd_pop">
+    <image src='../../img/pic.png' mode="widthFix"></image>
+  </view>
+</view>

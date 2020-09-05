@@ -1,0 +1,35 @@
+.logo_pic{
+  text-align: center;
+  padding: 50px 0 40px;
+}
+.logo_pic image{
+  width: 50%;
+}
+.list{
+  background: #F4F4F4;
+  margin: 0 50px 15px;
+  border-radius: 10px;
+  height: 45px;
+  overflow: hidden;
+  line-height: 45px;
+}
+.list image{
+  width: 18px;
+ margin: 13.5px 15px;
+}
+.list input{
+  font-size: 14px;
+  color: #333333;
+  height: 45px;
+  width: calc(100% - 65px)
+}
+.btn{
+  margin: 40px 50px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 10px;
+  
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}

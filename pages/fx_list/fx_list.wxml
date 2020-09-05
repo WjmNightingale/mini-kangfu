@@ -1,0 +1,67 @@
+<view>
+  <view class="main">
+    <view class="list">
+      <view class="li" catchtap="open_list">
+        <view>
+          <text class="fl">复习计划一</text>
+          <text class="fr">进度：(1/5)</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">复习开始时间：07-22</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">下次复习时间：07-25</text>
+        </view>
+      </view>
+      <view class="li" catchtap="open_list">
+        <view>
+          <text class="fl">复习计划二</text>
+          <text class="fr">进度：(0/5)</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">复习开始时间：07-22</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">下次复习时间：07-25</text>
+        </view>
+      </view>
+      <view class="li" catchtap="open_list">
+        <view>
+          <text class="fl">复习计划二</text>
+          <text class="fr">进度：(0/5)</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">复习开始时间：07-22</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">下次复习时间：07-25</text>
+        </view>
+      </view>
+      <view class="li" catchtap="open_list">
+        <view>
+          <text class="fl">复习计划四</text>
+          <text class="fr">进度：(0/5)</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">复习开始时间：07-22</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">下次复习时间：07-25</text>
+        </view>
+      </view>
+      <view class="li" catchtap="open_list">
+        <view>
+          <text class="fl">复习计划五</text>
+          <text class="fr">进度：(0/5)</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">复习开始时间：07-22</text>
+        </view>
+        <view style="font-size:12px;color:#999999">
+          <text class="fl">下次复习时间：07-25</text>
+        </view>
+      </view>
+    </view>
+  </view>
+<view class="btn" catchtap="add">制定复习</view>
+</view>

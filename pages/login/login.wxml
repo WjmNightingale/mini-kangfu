@@ -1,0 +1,13 @@
+<view class='logo_pic'>
+  <image src='../../img/login_img.png' mode='widthFix'></image>
+</view>
+<view class='list'>
+  <image class='fl' src='../../img/login_icon_username.png' mode='widthFix'></image>
+  <input type='text' placeholder='用户名' class='fl'></input>
+</view>
+<view class='list'>
+  <image class='fl' src='../../img/login_icon_cipher.png' mode='widthFix'></image>
+  <input type='text' password='true' placeholder='密码' class='fl'></input>
+</view>
+
+<view class='btn bgd_main' catchtap="open_index">登录</view>

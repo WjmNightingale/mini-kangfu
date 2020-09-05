@@ -1,0 +1,58 @@
+.fl{float: left;}
+.fr{float: right;}
+/*单行省略...*/
+.dhsl{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+/*第几行省略...   默认两行*/
+.djhsl{overflow: hidden;text-overflow: ellipsis;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.pop{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.3)
+}
+.hide{
+  display: none
+}
+.tsy_pop{
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 9999
+}
+.tsy_pop text{
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 5px 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.bgd_main{
+  background: linear-gradient(to right, #45A5FD , #6263FC) !important;
+}
+.color_blue{
+  color: #6263FF !important;
+}
+.color_green{
+  color: #74D457 !important;
+}
+.color_or{
+  color: #ED9123 !important;
+}
+.color_gr{
+  color: #5F5F5F !important;
+}
+.color_ye{
+  color: #F0AD07 !important;
+}
+.color_red{
+  color: #E14E45 !important;
+}
+.color_hui{
+  color: #797979 !important;
+}

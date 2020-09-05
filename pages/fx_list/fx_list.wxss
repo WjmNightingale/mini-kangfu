@@ -1,0 +1,37 @@
+
+
+.li{
+  font-size: 14px;
+  color: #333333;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.li view{
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+.li view .fr{
+  font-size: 12px;
+  color: #999999;
+}
+.li view:last-child{
+  margin-bottom: 0;
+}
+
+.btn{
+  font-size: 13px;
+  color: white;
+  position: fixed;
+  z-index: 9;
+  right: 15px;
+  bottom: 50px;
+  width: 38px;
+  height: 38px;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 11px;
+  background: linear-gradient(to bottom, #45A5FD , #6263FC) !important;
+}

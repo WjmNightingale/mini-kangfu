@@ -1,0 +1,43 @@
+<view>
+  <view class="show">
+    <image src='../../img/apple.jpg' mode="widthFix"></image>
+  </view>
+  <picker mode = "selector" range="{{type_arr}}" bindchange="upd_type">
+  <view class="line" style="margin-top:10px">
+		<text class="fl">复习周期</text>
+		<input placeholder="请选择" class="fl" type="text" disabled="true" value="{{name}}"></input>
+	</view>
+  </picker>
+   
+  <view class="big_line">
+    <view class="tit">
+      添加图片
+    </view>
+    <view class="pic">
+    <image src='../../img/add.png'></image>
+    </view>
+  
+  </view>
+  <view class="line">
+		<text class="fl">添加文字</text>
+		<input placeholder="请输入" class="fl" type="text"></input>
+	</view>
+<view class="line">
+		<text class="fl">添加语音</text>
+		<image src='../../img/yy.png' class="fl"  style="width:70px;margin-top:2.5px;height:45px"></image>
+	</view>
+
+<view class="big_line" style="margin-bottom:90px">
+    <view class="tit">
+      添加视频
+    </view>
+    <view class="pic">
+    <image src='../../img/add.png'></image>
+    </view>
+  
+  </view>
+
+  <view class="bottom">提交</view>
+
+  <view class="next">下一张</view>
+</view>

@@ -1,0 +1,42 @@
+<view>
+  <view class="main">
+  <checkbox-group>
+    <view class="list">
+        <view class="li">
+          <checkbox></checkbox>康复治疗一
+
+          <view>
+            <image src='../../img/apple.jpg' mode="widthFix" style="width:120px;margin-left:28px"></image>
+          </view>
+        </view>
+        <view class="li">
+          <checkbox></checkbox>康复治疗二
+          <view>
+            <image src='../../img/apple.jpg' mode="widthFix" style="width:120px;margin-left:28px"></image>
+          </view>
+        </view>
+        <view class="li">
+          <checkbox></checkbox>康复治疗三
+          <view>
+            <image src='../../img/apple.jpg' mode="widthFix" style="width:120px;margin-left:28px"></image>
+          </view>
+        </view>
+        <view class="li">
+          <checkbox></checkbox>康复治疗四
+          <view>
+            <image src='../../img/apple.jpg' mode="widthFix" style="width:120px;margin-left:28px"></image>
+          </view>
+        </view>
+        <view class="li">
+          <checkbox></checkbox>康复治疗五
+          <view>
+            <image src='../../img/apple.jpg' mode="widthFix" style="width:120px;margin-left:28px"></image>
+          </view>
+        </view>
+      </view>
+  
+  </checkbox-group>
+    
+  </view>
+<view class="bottom">添加复习</view>
+</view>
